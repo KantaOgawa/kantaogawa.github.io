@@ -13,7 +13,7 @@ title                    : ""
 title_separator          : "-"
 name                     : &name "Kanta Ogawa"
 description: &description "a Ph.D. student in Department of Economics at the University of Tokyo"
-url                      : https://kanta-ogawa-econ.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+url                      : https://kantaogawa.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "KantaOgawa/kantaogawa.github.io"
 
