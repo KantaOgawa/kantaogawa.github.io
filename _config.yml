@@ -8,7 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-theme                    : jekyll-theme-slate
+theme                    : minimal-mistakes-jekyll
+minimal_mistakes_skin    : "default"
 title                    : ""
 title_separator          : "-"
 name                     : &name "Kanta Ogawa"
@@ -284,11 +285,13 @@ timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-include-cache
+  - jekyll-archives
   - jekyll-redirect-from
   - jemoji
+
 
 # Mimic GitHub Pages with --safe
 whitelist:
