@@ -1,8 +1,8 @@
-PWD /Users/ogawakanta/Documents/Website/_cv
+PWD /Users/ogawakanta/Documents/Website/kantaogawa.github.io/assets/cv
 INPUT /usr/local/texlive/2025/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/ogawakanta/Documents/Website/_cv/cv.tex
+INPUT /Users/ogawakanta/Documents/Website/kantaogawa.github.io/assets/cv/cv.tex
 OUTPUT cv.log
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls

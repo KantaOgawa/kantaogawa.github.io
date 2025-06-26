@@ -7,6 +7,8 @@
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{setspace}
+\usepackage[absolute,overlay]{textpos}
+
 
 % Fonts and layout
 \setmainfont{Times New Roman}
@@ -28,6 +30,11 @@
 \setlength{\parindent}{0pt}
 
 \begin{document}
+
+\begin{textblock*}{5cm}(15cm,1cm)
+  \raggedleft
+  \textit{Last updated: \today}
+\end{textblock*}
 
 \begin{center}
     {\LARGE \textbf{Curriculum Vitae}}\\
