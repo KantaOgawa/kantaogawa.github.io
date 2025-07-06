@@ -11,8 +11,6 @@ main:
   - title: "Home"
     url: /
   - title: "CV(PDF)"
-    url: /assets/cv/cv20250627.pdf
+    url: /assets/cv/cv20250706.pdf
   - title: "Working Paper"
     url: /working-papers/
-
-
