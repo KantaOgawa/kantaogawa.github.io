@@ -64,19 +64,8 @@ ul {
 </p>
 
 <p>
-  <strong>Email:</strong>
-  <a id="email-link" href="#"></a>
-</p>
-
-<script>
-  // メールアドレスを分割して定義
-  var user = "ko2406";
-  var domain = "nyu.edu";
-
-  // メールアドレスを結合して、aタグのhrefとテキストに設定
-  var emailAddress = user + "@" + domain;
-  var emailLink = document.getElementById("email-link");
-
-  emailLink.href = "mailto:" + emailAddress; // クリックしたらメーラーが起動するようにする
-  emailLink.textContent = emailAddress;       // 見た目のテキストも設定する
-</script>
+<strong>Email:</strong>
+<a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#107;&#111;&#050;&#052;&#048;&#054;&#064;&#110;&#121;&#117;&#046;&#101;&#100;&#117;">
+  &#107;&#111;&#050;&#052;&#048;&#054;&#064;&#110;&#121;&#117;&#046;&#101;&#100;&#117;
+</a>
+<p>
