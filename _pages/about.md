@@ -2,7 +2,7 @@
 permalink: /
 title: "Kanta Ogawa"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -60,21 +60,23 @@ ul {
 </style>
 
 <p>
-  Hi, I'm Kanta Ogawa. I am currently a Ph.D. student at the Graduate School of Economics, University of Tokyo.<br><br>
-  Starting this fall, I will begin a new Ph.D. program in the Department of Economics at New York University.
+  Hi, I'm Kanta Ogawa. I am currently a Ph.D. student at the Department of Economics at New York University.
 </p>
 
 <p>
   <strong>Email:</strong>
-  <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#111;&#103;&#097;&#119;&#097;&#045;&#107;&#097;&#110;&#116;&#097;&#051;&#049;&#057;&#064;&#103;&#046;&#101;&#099;&#099;&#046;&#117;&#045;&#116;&#111;&#107;&#121;&#111;&#046;&#097;&#099;&#046;&#106;&#112;">
-    &#111;&#103;&#097;&#119;&#097;&#045;&#107;&#097;&#110;&#116;&#097;&#051;&#049;&#057;&#064;&#103;&#046;&#101;&#099;&#099;&#046;&#117;&#045;&#116;&#111;&#107;&#121;&#111;&#046;&#097;&#099;&#046;&#106;&#112;
-  </a>
+  <a id="email-link" href="#"></a>
 </p>
 
+<script>
+  // メールアドレスを分割して定義
+  var user = "ko2406";
+  var domain = "nyu.edu";
 
+  // メールアドレスを結合して、aタグのhrefとテキストに設定
+  var emailAddress = user + "@" + domain;
+  var emailLink = document.getElementById("email-link");
 
-
-
-
-
-
+  emailLink.href = "mailto:" + emailAddress; // クリックしたらメーラーが起動するようにする
+  emailLink.textContent = emailAddress;       // 見た目のテキストも設定する
+</script>
