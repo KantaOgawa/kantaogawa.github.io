@@ -10,26 +10,26 @@ redirect_from:
 <style>
 /* Inline Brown-Themed Styling for cv.md only */
 body {
-  background-color: #f8f5f0;
-  color: #3b2f2f;
+  background-color: var(--page-bg-color, #f8f5f0);
+  color: var(--page-text-color, #3b2f2f);
   font-family: 'Georgia', serif;
 }
 h1, h2, h3, h4, h5 {
-  color: #5a3e36;
+  color: var(--page-text-color, #5a3e36);
 }
 a {
-  color: #8b5e3c;
+  color: var(--page-link-color, #8b5e3c);
   text-decoration: none;
-  border-bottom: 1px dotted #8b5e3c;
+  border-bottom: 1px dotted var(--page-link-color, #8b5e3c);
 }
 a:hover {
-  color: #b47850;
-  border-bottom: 1px solid #b47850;
+  color: var(--page-link-hover-color, #b47850);
+  border-bottom: 1px solid var(--page-link-hover-color, #b47850);
 }
 section, article {
-  background-color: #fffdf9;
+  background-color: var(--page-surface-color, #fffdf9);
   padding: 2rem;
-  border-left: 6px solid #d3b08a;
+  border-left: 6px solid var(--page-border-color, #d3b08a);
   box-shadow: 0 0 10px rgba(100, 85, 75, 0.1);
   border-radius: 10px;
   margin-bottom: 2rem;
@@ -70,6 +70,8 @@ Macro-labor, heterogeneous household behavior, taxation, and social security sys
 # Working Paper
 
 - **["Part-Time Penalties and Heterogeneous Retirement Decisions"](https://arxiv.org/pdf/2503.17917)**
+
+  **Revise and resubmit** at *Macroeconomic Dynamics*.
 
   *Abstract*: Older male workers display varying retirement behaviors across different occupations, influenced significantly by the part-time penalty—the wage reduction faced by part-time workers compared to their full-time counterparts. Many older individuals reduce their working hours, and in occupations with high part-time penalties, they tend to retire earlier, as shown in data from the Japanese Panel Study of Employment Dynamics (JPSED).  
   This study develops a general equilibrium model that incorporates occupational choices and endogenous labor supply, highlighting that the impact on retirement decisions is amplified by the presence of assets and pensions.  

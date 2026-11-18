@@ -107,14 +107,20 @@
 .author__content {
   display: table-cell;
   vertical-align: top;
-  padding-left: 15px;
   padding-right: 25px;
   line-height: 1;
+
+  .author__avatar + & {
+    padding-left: 15px;
+
+    @include breakpoint($large) {
+      padding-left: 0;
+    }
+  }
 
   @include breakpoint($large) {
     display: block;
     width: 100%;
-    padding-left: 0;
     padding-right: 0;
   }
 }

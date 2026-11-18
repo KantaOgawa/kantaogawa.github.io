@@ -10,7 +10,7 @@
 main:
   - title: "Home"
     url: /
-  - title: "CV(PDF)"
-    url: /assets/cv/cv20250908.pdf
-  - title: "Working Paper"
+  - title: "CV (PDF)"
+    url: /assets/cv/cv20261118.pdf
+  - title: "Working Papers"
     url: /working-papers/

@@ -3,18 +3,13 @@
    ========================================================================== */
 
 /* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+$background                 : #101b2e;
+$surface                    : #1a2942;
+$border                     : #384e6c;
+$text                       : #e3ebf7;
+$text-muted                 : #acbed6;
+$link                       : #97c5ff;
+$link-hover                 : #c7e0ff;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -35,20 +30,29 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
+    color-scheme: dark;
     --global-base-color                 : #{$background};
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
+    --global-footer-bg-color            : #{$surface};
+    --global-border-color               : #{$border};
+    --global-dark-border-color          : #{$border};
+    --global-code-background-color      : #{$surface};
+    --global-code-text-color            : #{$text};
+    --global-fig-caption-color          : #{$text-muted};
     --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
+    --global-link-color-hover           : #{$link-hover};
+    --global-link-color-visited         : #{$link};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
+    --global-masthead-link-color-hover  : #{$link-hover};
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$background-lighter};
+    --global-text-color-light           : #{$text-muted};
+    --global-thead-color                : #{$surface};
+
+    --page-bg-color                    : #{$background};
+    --page-text-color                  : #{$text};
+    --page-muted-color                 : #{$text-muted};
+    --page-link-color                  : #{$link};
+    --page-link-hover-color            : #{$link-hover};
+    --page-surface-color               : #{$surface};
+    --page-border-color                : #{$border};
 }
